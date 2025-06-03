@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Collection - Elites Style</title>
+    <link rel="stylesheet" href="css/Final-project.css">
+    <link rel="stylesheet" href="css/categorie.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="overlay" id="overlay"></div>
+    <div class="navbar pcView">
+        <h1 class="logo">Elites Style</h1>
+        <nav>
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="#category-page">Collection</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li class="dropdown"><a href="#footercontainer">About</a></li>
+            </ul>
+        </nav>
+        <div class="all-buttons">
+            <a href="log-in.html" class="b-login">Log in</a>
+            <a href="join-now.html" class="b-join">Sign up</a>
+        </div>
+    </div>
+
+    <label class="main mobileView">
+        <h1 class="logo">Elites Style</h1>
+        <input class="inp" checked="" type="checkbox" />
+        <div class="bar">
+            <span class="top bar-list"></span>
+            <span class="middle bar-list"></span>
+            <span class="bottom bar-list"></span>
+        </div>
+        <section class="menu-container">
+            <div class="menu-list" onclick="window.location.href='index.html'">Home</div>
+            <div class="menu-list" onclick="window.location.href='#category-page'">Collection</div>
+            <div class="menu-list" onclick="window.location.href='#categories'">Categories</div>
+            <div class="menu-list" onclick="window.location.href='#footercontainer'">About</div>
+            <div class="menu-list" onclick="window.location.href='log-in.html'">Log in</div>
+            <div class="menu-list" onclick="window.location.href='join-now.html'"
+                style="background-color: #f8174f; color: white;">Sign up</div>
+        </section>
+    </label>
+
+    <section class="category-hero" style="background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/4d1ca6138811731.6224d9754d4ea.jpg);">
+        <div class="category-hero-content">
+                <h1>Volleyball Collection</h1>
+                <p>Built tough for the intense game. Elevate your performance with our premium selection.</p>
+            </div>
+        </section>
+    <div class="category-page" id="category-page">
+        <div class="filters">
+            <a href="#allProducts" class="filter-button active" id="all">All</a>
+            <a href="#allJerseys" class="filter-button" id="Jersey">Jerseys</a>
+            <a href="#allBoots" class="filter-button" id="Boots">Boots</a>
+            <a href="#allEquipment" class="filter-button" id="Equipment">Equipment</a>
+        </div>
+        <section class="products" id="allProducts">
+           <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://media.karousell.com/media/photos/products/2023/3/26/asics_brazil_volleyball_jersey_1679822522_758ac90d.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pro Elite Jersey</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/ff/06/9d/ff069d4672d48ab950a00e10941b7b64.jpg" alt="Speed Pro Boots" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Speed Pro Boots</h3>
+                        <p class="product-price">$159.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/09/ef/39/09ef397e5c966ea8db0bbf370745a83a.jpg" alt="Match Ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Official Match Ball</h3>
+                        <p class="product-price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/c3/12/0d/c3120d939d64d274d0342f928852c91a.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ball Cart</h3>
+                        <p class="product-price">$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allJerseys" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://media.karousell.com/media/photos/products/2023/3/26/asics_brazil_volleyball_jersey_1679822522_758ac90d.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Team Brazil National Volleyball jersey </h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://media-assets.grailed.com/prd/listing-draft/5458077/aa7b59d4975c40fe8fd3959b786cc3f1" alt="Speed Pro Boots" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Team Japan National Volleyball jersey</h3>
+                        <p class="product-price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.ebayimg.com/images/g/THwAAOSwtYBhEpXB/s-l1600.webp" alt="Match Ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Zenit Kazan (Russia) Volleyball jersey</h3>
+                        <p class="product-price">$45.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://www.faddynative.com/wp-content/uploads/2023/04/karasuno_jersey_tee_fronta_comicsense-600x801.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Karasunu Valleyball jersey from Haikyuu</h3>
+                        <p class="product-price">$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allBoots" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/ff/06/9d/ff069d4672d48ab950a00e10941b7b64.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Asics Breathable Volleyball High White and Black Men Shoes</h3>
+                        <p class="product-price">$189.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/fd/8b/ba/fd8bba20674ecf46b6d5befd4fb7a210.jpg" alt="Speed Pro Boots" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Asics Volleyball High Red and Black Men Shoes</h3>
+                        <p class="product-price">$159.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/b2/1c/78/b21c78c9b695aed85c6cc6c4d040575b.jpg" alt="Match Ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nike Volleyball High quality Shoes</h3>
+                        <p class="product-price">$149.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/ea/85/7b/ea857bb2a5efcb61c073d2287848cd24.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Kyrie Irving Nike Celtics</h3>
+                        <p class="product-price">$160.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allEquipment" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/c3/12/0d/c3120d939d64d274d0342f928852c91a.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ball Cart</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/58/72/82/58728266a53a33156ef29cb222db3f9e.jpg" alt="Speed Pro Boots" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">DynamicSpike Volleyball</h3>
+                        <p class="product-price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/25/3d/62/253d623110b07b588128e84e4b1f972a.jpg" alt="Match Ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Volleyball Arm Sleeves</h3>
+                        <p class="product-price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/38/a6/c4/38a6c4d0de01a53a6bfb4dc9400cf6df.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Resistance Bands</h3>
+                        <p class="product-price">$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <section class="categories" id="categories">
+        <h2 class="section-title">Choose Your Sport</h2>
+        <div class="category-grid">
+            <a href="football.html" class="category-card">
+                <img src="images/football.avif" alt="Football" loading="lazy">
+                <div class="category-content">
+                    <h3>Football</h3>
+                    <p>Professional gear for the beautiful game</p>
+                </div>
+            </a>
+            <a href="basketball.html" class="category-card">
+                <img src="images/basketball2.jpg" alt="Basketball" loading="lazy">
+                <div class="category-content">
+                    <h3>Basketball</h3>
+                    <p>Dominate the court with style</p>
+                </div>
+            </a>
+            <a href="volleyball.html" class="category-card">
+                <img src="https://i.pinimg.com/736x/b2/a9/bb/b2a9bb65ecad6e4f7973e8223e055546.jpg" alt="volleyball" loading="lazy">
+                <div class="category-content">
+                    <h3>Volleyball</h3>
+                    <p>Built tough for the intense game</p>
+                </div>
+            </a>
+            <a href="gym.html" class="category-card">
+                <img src="images/gym2.avif" alt="Gym" loading="lazy">
+                <div class="category-content">
+                    <h3>Gym</h3>
+                    <p>Maximize your workout potential</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div id="footercontainer">
+            <div class="about-content">
+                <div class="logo2">
+                    <h1>Elites Style</h1>
+                </div>
+                <div class="about">
+                    <h2>About Us</h2>
+                    <ul class="liste">
+                        <li>Our Story</li>
+                        <li>Creersr</li>
+                        <li>Press</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h2>Get Help</h2>
+                    <ul class="liste">
+                        <li>Customer Service</li>
+                        <li>Track Order</li>
+                        <li>Returns & Exchanges</li>
+                        <li>Shipping info</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="shop-list">
+                    <h2>Shop</h2>
+                    <ul class="liste">
+                        <li>New Arrivals</li>
+                        <li>Categories</li>
+                        <li>Sale</li>
+                    </ul>
+                </div>
+                <div class="comment">
+                    <form action="">
+                        <input type="text" placeholder="You can leave a comment here">
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+            <span class="just-border"></span>
+            <span class="socialmedia">
+                <a href="https://www.instagram.com/salaheddine_rachik?igsh=MWswcTJlajV6dGV6Yw==" id="instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/SalahEddine-Ra" id="github"><i class="fa-brands fa-github"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/salaheddine-rachik?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="linkedin"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </span>
+        </div>
+        <div class="copyright">
+            <p> &copy;2024 <a href="https://github.com/SalahEddine-Ra">Salah Eddine Rachik</a>. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

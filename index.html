@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elites-Style Store</title>
+    <link rel="stylesheet" href="css/Final-project.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+    <div class="navbar pcView">
+        <h1 class="logo">Elites Style</h1>
+        <nav>
+            <ul>
+                <li id="home"><a href="#carte">Home</a></li>
+                <li><a href="#most-popular">Most Popular</a></li>
+                <li class="dropdown"><a href="#footercontainer">About</a></li>
+            </ul>
+        </nav>
+        <div class="all-buttons">
+            <a href="log-in.html" class="b-login">Log in</a>
+            <a href="join-now.html" class="b-join">Sign up</a>
+        </div>
+    </div>
+
+    <label class="main mobileView">
+        <h1 class="logo">Elites Style</h1>
+        <input class="inp" checked="" type="checkbox" />
+        <div class="bar">
+            <span class="top bar-list"></span>
+            <span class="middle bar-list"></span>
+            <span class="bottom bar-list"></span>
+        </div>
+        <section class="menu-container">
+            <div class="menu-list" onclick="window.location.href='#carte'">Home</div>
+            <div class="menu-list" onclick="window.location.href='#most-popular-slides'">Most Popular</div>
+            <div class="menu-list" onclick="window.location.href='#footercontainer'">About</div>
+            <div class="menu-list" onclick="window.location.href='log-in.html'">Log in</div>
+            <div class="menu-list" onclick="window.location.href='join-now.html'"
+                style="background-color: #f8174f; color: white;">Sign up</div>
+        </section>
+    </label>
+
+
+
+    <section class="carte" id="carte" style="background: linear-gradient(rgba(15, 15, 15, 0.856), rgba(15, 15, 15, 0.87)),
+    url('images/store.webp') no-repeat center center;">
+        <div class="carte-content">
+            <h1>ELEVATE YOUR GAME</h1>
+            <p>Premium sports clothing for champions</p>
+            <span id="button-shop"><a href="#categories">Shop now</a></span>
+        </div>
+
+    </section>
+
+    <section class="most-popular pcPopular" id="most-popular">
+        <div>
+            <h2 class="section-title">Most Popular</h2>
+        </div>
+        <div class="popular">
+
+            
+                <div class="card-popular">
+                    <div class="card-img">
+                        <img src="images/madrid.jpg" alt="Real madrid Jersey" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Real madrid Jersey</h3>
+                        <p class="product-price">$89.99</p>
+
+                    </div>
+                </div>
+
+                <div class="card-popular">
+                    <div class="card-img">
+                        <img src="https://i.pinimg.com/736x/af/82/75/af827569d6f5f3ec8a0e84c7b00447f5.jpg"
+                            alt="Barcelona Jersey" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Barcelona Jersey</h3>
+                        <p class="product-price">$59.99</p>
+
+                    </div>
+                </div>
+
+                <div class="card-popular">
+                    <div class="card-img">
+                        <img src="https://i.pinimg.com/736x/ca/ad/49/caad4993b5869025d8fefbc4079e5639.jpg"
+                            alt="Nike Kobe 9 Elite Low Purple Yellow Black" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Nike Kobe 9 </h3>
+                        <p class="product-price">$160.99</p>
+
+                    </div>
+                </div>
+
+                <div class="card-popular">
+                    <div class="card-img">
+                        <img src="https://i.pinimg.com/736x/e5/ec/bb/e5ecbb801c7b6a6b2a679b50364887e0.jpg"
+                            alt="Weight lifting belt" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Weight lifting belt</h3>
+                        <p class="product-price">$16.99</p>
+
+                    </div>
+                </div>
+
+            
+        </div>
+
+    </section>
+
+
+
+    <section class="mostPopularSlides" id="most-popular-slides">
+        <div>
+            <h2 class="section-title">Most Popular</h2>
+        </div>
+        <div class="popular">
+
+            <div class="card-popular">
+                <div class="card-img">
+                    <img src="images/madrid.jpg" alt="Real madrid Jersey" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Real madrid Jersey</h3>
+                    <p class="product-price">$89.99</p>
+                </div>
+            </div>
+
+            <div class="card-popular">
+                <div class="card-img">
+                    <img src="https://i.pinimg.com/736x/af/82/75/af827569d6f5f3ec8a0e84c7b00447f5.jpg"
+                        alt="Barcelona Jersey" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Barcelona Jersey</h3>
+                    <p class="product-price">$59.99</p>
+                </div>
+            </div>
+
+            <div class="card-popular">
+                <div class="card-img">
+                    <img src="https://i.pinimg.com/736x/ca/ad/49/caad4993b5869025d8fefbc4079e5639.jpg"
+                        alt="Nike Kobe 9 Elite Low Purple Yellow Black" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Nike Kobe 9 </h3>
+                    <p class="product-price">$160.99</p>
+                </div>
+            </div>
+
+            <div class="card-popular">
+                <div class="card-img">
+                    <img src="https://i.pinimg.com/736x/e5/ec/bb/e5ecbb801c7b6a6b2a679b50364887e0.jpg"
+                        alt="Weight lifting belt" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="product-name">Weight lifting belt</h3>
+                    <p class="product-price">$16.99</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="categories" id="categories">
+        <h2 class="section-title">Choose Your Sport</h2>
+        <div class="category-grid">
+            <a href="football.html" class="category-card">
+                <img src="images/football.avif" alt="Football" loading="lazy">
+                <div class="category-content">
+                    <h3>Football</h3>
+                    <p>Professional gear for the beautiful game</p>
+                </div>
+            </a>
+            <a href="basketball.html" class="category-card">
+                <img src="images/basketball2.jpg" alt="Basketball" loading="lazy">
+                <div class="category-content">
+                    <h3>Basketball</h3>
+                    <p>Dominate the court with style</p>
+                </div>
+            </a>
+            <a href="rugby.html" class="category-card">
+                <img src="https://i.pinimg.com/736x/b2/a9/bb/b2a9bb65ecad6e4f7973e8223e055546.jpg" alt="Vollyball"
+                    loading="lazy">
+                <div class="category-content">
+                    <h3>Volleyball</h3>
+                    <p>Built tough for the intense game</p>
+                </div>
+            </a>
+            <a href="gym.html" class="category-card">
+                <img src="images/gym2.avif" alt="Gym" loading="lazy">
+                <div class="category-content">
+                    <h3>Gym</h3>
+                    <p>Maximize your workout potential</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div id="footercontainer">
+            <div class="about-content">
+                <div class="logo2">
+                    <h1>Elites Style</h1>
+                </div>
+                <div class="about">
+                    <h2>About Us</h2>
+                    <ul class="liste">
+                        <li>Our Story</li>
+                        <li>Creersr</li>
+                        <li>Press</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h2>Get Help</h2>
+                    <ul class="liste">
+                        <li>Customer Service</li>
+                        <li>Track Order</li>
+                        <li>Returns & Exchanges</li>
+                        <li>Shipping info</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="shop-list">
+                    <h2>Shop</h2>
+                    <ul class="liste">
+                        <li>New Arrivals</li>
+                        <li>Categories</li>
+                        <li>Sale</li>
+                    </ul>
+                </div>
+                <div class="comment">
+                    <form action="">
+                        <input type="text" placeholder="You can leave a comment here">
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+            <span class="just-border"></span>
+            <span class="socialmedia">
+                <a href="https://www.instagram.com/salaheddine_rachik?igsh=MWswcTJlajV6dGV6Yw==" id="instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/SalahEddine-Ra" id="github"><i class="fa-brands fa-github"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/salaheddine-rachik?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="linkedin"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </span>
+        </div>
+        <div class="copyright">
+            <p> &copy;2024 <a href="https://github.com/SalahEddine-Ra">Salah Eddine Rachik</a>. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

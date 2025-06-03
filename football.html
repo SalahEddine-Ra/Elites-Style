@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Collection - Elites Style</title>
+    <link rel="stylesheet" href="css/Final-project.css">
+    <link rel="stylesheet" href="css/categorie.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="overlay" id="overlay"></div>
+    <div class="navbar pcView">
+        <h1 class="logo">Elites Style</h1>
+        <nav>
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="#category-page">Collection</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li class="dropdown"><a href="#footercontainer">About</a></li>
+            </ul>
+        </nav>
+        <div class="all-buttons">
+            <a href="log-in.html" class="b-login">Log in</a>
+            <a href="join-now.html" class="b-join">Sign up</a>
+        </div>
+    </div>
+
+    <label class="main mobileView">
+        <h1 class="logo">Elites Style</h1>
+        <input class="inp" checked="" type="checkbox" />
+        <div class="bar">
+            <span class="top bar-list"></span>
+            <span class="middle bar-list"></span>
+            <span class="bottom bar-list"></span>
+        </div>
+        <section class="menu-container">
+            <div class="menu-list" onclick="window.location.href='index.html'">Home</div>
+            <div class="menu-list" onclick="window.location.href='#category-page'">Collection</div>
+            <div class="menu-list" onclick="window.location.href='#categories'">Categories</div>
+            <div class="menu-list" onclick="window.location.href='#footercontainer'">About</div>
+            <div class="menu-list" onclick="window.location.href='log-in.html'">Log in</div>
+            <div class="menu-list" onclick="window.location.href='join-now.html'"
+                style="background-color: #f8174f; color: white;">Sign up</div>
+        </section>
+    </label>
+
+
+    <section class="category-hero"
+        style="background-image: url('https://img.nagradion.ru/tune/small/newsline/95/02/29/newsi3evjyfs36.jpeg');">
+        <div class="category-hero-content">
+            <h1>Football Collection</h1>
+            <p>Professional gear for the beautiful game. Elevate your performance with our premium selection.</p>
+        </div>
+    </section>
+
+    <div class="category-page" id="category-page">
+        <div class="filters">
+            <a href="#allProducts" class="filter-button active" id="all">All</a>
+            <a href="#allJerseys" class="filter-button" id="Jersey">Jerseys</a>
+            <a href="#allBoots" class="filter-button" id="Boots">Boots</a>
+            <a href="#allEquipment" class="filter-button" id="Equipment">Equipment</a>
+        </div>
+        <section class="products" id="allProducts">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/madrid.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pro Elite Jersey</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/97/af/66/97af669f46a66e05d003fb16fd10f3a5.jpg"
+                            alt="Speed Pro Boots" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Speed Pro Boots</h3>
+                        <p class="product-price">$159.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Match Ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Official Match Ball</h3>
+                        <p class="product-price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/equippment-football1.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Agility ladder</h3>
+                        <p class="product-price">$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allJerseys" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/madrid.jpg" alt="Pro Elite Jersey" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Real madrid Jersey</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/af/82/75/af827569d6f5f3ec8a0e84c7b00447f5.jpg"
+                            alt="Barcelona" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Barcelona Jersey</h3>
+                        <p class="product-price">$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/15/c9/95/15c9956e29ec8e773ec196aab414b7c8.jpg"
+                            alt="Manchister" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Manchister United Jersey</h3>
+                        <p class="product-price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/4c/e7/be/4ce7bef8747ee184de685870bc0a9dd5.jpg"
+                            alt="ac-milan" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">AC-Milan Jersey</h3>
+                        <p class="product-price">$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allBoots" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/97/af/66/97af669f46a66e05d003fb16fd10f3a5.jpg" alt="nike" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nike Mercurial Superfly</h3>
+                        <p class="product-price">$149.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/9b/15/fe/9b15fe907ffa89199d65374da3676578.jpg" alt="nike" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nike Phantom GX</h3>
+                        <p class="product-price">$260.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/7c/12/46/7c1246af7462f5e11e9965824ad28f3c.jpg"
+                            alt="addidas" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">adidas Predator Elite Tongue FG</h3>
+                        <p class="product-price">$240.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/d1/26/70/d126707e18378583a9444e4e3444e7d9.jpg" alt="puma" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Puma Ultra 5 Ultimate FG</h3>
+                        <p class="product-price">$109.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="allEquipment" style="display: none;">
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/2d/da/06/2dda06f67915fe9db87b907e1f293d47.jpg" alt="ball" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Nike Premier League Pitch Soccer</h3>
+                        <p class="product-price">$89.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/2a/77/92/2a7792c324edfb856c25775b06c0eefc.jpg" alt="Net" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Target Net Football</h3>
+                        <p class="product-price">$19.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/06/de/de/06deded432393bcf59f4763211bdc5b3.jpg" alt="gloves" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">FORZA Centro Football Goalkeeper Gloves</h3>
+                        <p class="product-price">$49.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/equippment-football1.jpg" alt="agility-ladder" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Agility ladder</h3>
+                        <p class="product-price">$16.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <section class="categories" id="categories">
+        <h2 class="section-title">Choose Your Sport</h2>
+        <div class="category-grid">
+            <a href="football.html" class="category-card">
+                <img src="images/football.avif" alt="Football" loading="lazy">
+                <div class="category-content">
+                    <h3>Football</h3>
+                    <p>Professional gear for the beautiful game</p>
+                </div>
+            </a>
+            <a href="basketball.html" class="category-card">
+                <img src="images/basketball2.jpg" alt="Basketball" loading="lazy">
+                <div class="category-content">
+                    <h3>Basketball</h3>
+                    <p>Dominate the court with style</p>
+                </div>
+            </a>
+            <a href="volleyball.html" class="category-card">
+                <img src="https://i.pinimg.com/736x/b2/a9/bb/b2a9bb65ecad6e4f7973e8223e055546.jpg" alt="volleyball" loading="lazy">
+                <div class="category-content">
+                    <h3>Volleyball</h3>
+                    <p>Built tough for the intense game</p>
+                </div>
+            </a>
+            <a href="gym.html" class="category-card">
+                <img src="images/gym2.avif" alt="Gym" loading="lazy">
+                <div class="category-content">
+                    <h3>Gym</h3>
+                    <p>Maximize your workout potential</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div id="footercontainer">
+            <div class="about-content">
+                <div class="logo2">
+                    <h1>Elites Style</h1>
+                </div>
+                <div class="about">
+                    <h2>About Us</h2>
+                    <ul class="liste">
+                        <li>Our Story</li>
+                        <li>Creersr</li>
+                        <li>Press</li>
+                        <li>Sustainability</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h2>Get Help</h2>
+                    <ul class="liste">
+                        <li>Customer Service</li>
+                        <li>Track Order</li>
+                        <li>Returns & Exchanges</li>
+                        <li>Shipping info</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="shop-list">
+                    <h2>Shop</h2>
+                    <ul class="liste">
+                        <li>New Arrivals</li>
+                        <li>Categories</li>
+                        <li>Sale</li>
+                    </ul>
+                </div>
+                <div class="comment">
+                    <form action="">
+                        <input type="text" placeholder="You can leave a comment here">
+                        <button>Send</button>
+                    </form>
+                </div>
+            </div>
+            <span class="just-border"></span>
+            <span class="socialmedia">
+                <a href="https://www.instagram.com/salaheddine_rachik?igsh=MWswcTJlajV6dGV6Yw==" id="instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/SalahEddine-Ra" id="github"><i class="fa-brands fa-github"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/salaheddine-rachik?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="linkedin"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </span>
+        </div>
+        <div class="copyright">
+            <p> &copy;2024 <a href="https://github.com/SalahEddine-Ra">Salah Eddine Rachik</a>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
